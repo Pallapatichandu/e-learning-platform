@@ -1,0 +1,29 @@
+/* Our Courses Section */
+.our-courses .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.our-courses .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.our-courses .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.our-courses .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.our-courses .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.our-courses .btn {
+  margin-top: 10px;
+}

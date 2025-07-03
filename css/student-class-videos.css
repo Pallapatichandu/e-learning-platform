@@ -1,0 +1,104 @@
+/* Body and general styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+/* Section title */
+.class-videos h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Grid layout for video cards */
+#videos-container {
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Each video card */
+.video-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Video thumbnail image */
+.video-card img.video-thumbnail {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+/* Video title */
+.video-card h3 {
+  margin: 0.8rem;
+  font-size: 1.1rem;
+  color: #111;
+  text-align: center;
+}
+
+/* Course and date info */
+.video-card p,
+.video-card .video-date {
+  margin: 0 1rem 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Video iframe */
+.video-iframe {
+  width: 100%;
+  height: 200px;
+  display: none;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+/* Show iframe when playing */
+.video-card.playing .video-iframe {
+  display: block;
+}
+
+/* Responsive fix for small devices */
+@media (max-width: 480px) {
+  #videos-container {
+    grid-template-columns: 1fr;
+  }
+
+  .video-card h3 {
+    font-size: 1rem;
+  }
+
+  .video-card p {
+    font-size: 0.85rem;
+  }
+
+  .video-iframe {
+    height: 180px;
+  }
+}

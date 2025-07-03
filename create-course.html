@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Course</title>
+  <link rel="stylesheet" href="css/create-course.css" />
+</head>
+
+<body>
+ 
+
+
+  <!-- create-course.html -->
+<div class="course-container">
+  <h2>📘 Create or Edit Course</h2>
+  <form id="course-form">
+    <input type="text" name="title" placeholder="Course Title" required />
+    <input type="text" name="instructor" placeholder="Instructor Name" required />
+    <textarea name="description" placeholder="Course Description" required></textarea>
+    <input type="url" name="image" placeholder="Image URL" required />
+    <button type="submit">Create Course</button>
+  </form>
+
+  <h3>📚 My Courses</h3>
+  <ul id="courses-list"></ul>
+</div>
+
+
+
+<script src="js/create-course.js"></script>
+</body>
+
+</html>

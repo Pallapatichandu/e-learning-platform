@@ -1,0 +1,120 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1e3a8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #93c5fd;
+  }
+  
+  .logout-btn {
+    background-color: #dc2626;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #b91c1c;
+  }
+  
+  /* Page Section */
+  .page-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1e3a8a;
+    margin-bottom: 2rem;
+  }
+  
+  /* Courses Grid */
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Course Card */
+  .course-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .course-card h3 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .course-card p {
+    margin-bottom: 0.75rem;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .course-card strong {
+    color: #1f2937;
+  }
+  
+  /* Enroll Button */
+  .enroll-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #1e40af;
+  }
+  

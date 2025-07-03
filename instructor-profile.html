@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instructor Profile</title>
+  <link rel="stylesheet" href="css/instructor-profile.css" />
+</head>
+<body>
+  <div class="profile-container">
+    <h2>My Profile</h2>
+    <div class="profile-card">
+      <div class="profile-image">
+        <img id="profilePreview" src="default-avatar.png" alt="Profile" />
+        <input type="file" id="profileImage" accept="image/*" />
+      </div>
+
+      <form id="profileForm" class="profile-details">
+        <input type="text" id="name" disabled />
+        <input type="email" id="email" disabled />
+        <input type="text" id="specialization" placeholder="Specialization" required />
+        <button type="submit">Save Profile</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/instructor-profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+.assignments-section {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.assignments-section h2,
+.assignments-section h3 {
+  margin-bottom: 16px;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 6px;
+}
+
+.assignments-section form div {
+  margin-bottom: 12px;
+}
+
+.assignments-section label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.assignments-section input[type="text"],
+.assignments-section input[type="date"],
+.assignments-section textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.assignments-section input[type="text"]:focus,
+.assignments-section input[type="date"]:focus,
+.assignments-section textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+  background: #fff;
+}
+
+.assignments-section button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 10px 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.assignments-section button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#assignments-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+#assignments-list li {
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: relative;
+  line-height: 1.4;
+}
+
+#assignments-list li strong {
+  font-size: 18px;
+  color: #222;
+}
+
+#assignments-list li span {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* Buttons inside assignment items */
+#assignments-list li button {
+  position: absolute;
+  top: 15px;
+  background: #eee;
+  border: none;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#assignments-list li button:hover {
+  background-color: #ddd;
+}
+
+#assignments-list li button.edit-btn {
+  right: 80px;
+}
+
+#assignments-list li button.delete-btn {
+  right: 20px;
+  color: #d9534f;
+}
+
+#assignments-list li button.delete-btn:hover {
+  background-color: #f2dede;
+}
+
+/* ===================== */
+/*      MEDIA QUERIES    */
+/* ===================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .assignments-section {
+    padding: 15px;
+  }
+
+  .assignments-section h2,
+  .assignments-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .assignments-section input,
+  .assignments-section textarea,
+  .assignments-section button[type="submit"] {
+    font-size: 15px;
+  }
+
+  #assignments-list li {
+    padding: 12px 16px;
+  }
+
+  #assignments-list li strong {
+    font-size: 1.1rem;
+  }
+
+  #assignments-list li span {
+    font-size: 13px;
+  }
+
+  #assignments-list li button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  #assignments-list li button.edit-btn {
+    right: 75px;
+  }
+
+  #assignments-list li button.delete-btn {
+    right: 10px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .assignments-section {
+    padding: 10px;
+  }
+
+  .assignments-section h2,
+  .assignments-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .assignments-section input,
+  .assignments-section textarea,
+  .assignments-section button[type="submit"] {
+    font-size: 14px;
+  }
+
+  #assignments-list li {
+    padding: 10px 12px;
+  }
+
+  #assignments-list li strong {
+    font-size: 1rem;
+  }
+
+  #assignments-list li span {
+    font-size: 12px;
+  }
+
+  #assignments-list li button {
+    position: static;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  #assignments-list li .edit-btn,
+  #assignments-list li .delete-btn {
+    margin-right: 10px;
+  }
+}

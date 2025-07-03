@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="css/student-dashboard.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo"><img src="education_logo.svg" alt="Education Learn Logo"></div>
+    <div class="header-actions">
+      <a href="login.html" class="logout-btn" onclick="logout()">Logout</a>
+    </div>
+  </header>
+
+  <!-- Dashboard Layout -->
+  <div class="dashboard-container">
+    
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <ul>
+        <li onclick="loadPage('student-home.html')">🏠 Home</li>
+        <li onclick="loadPage('available-courses.html')">📚 Available Courses</li>
+        <li onclick="loadPage('mycourse.html')">✅ My Courses</li>
+        <li onclick="loadPage('student-class-videos.html')">🎥 Class Videos</li>
+        <li onclick="loadPage('student-assignments.html')">📝 Assignments</li>
+        
+        <li onclick="logout()">🔒 Logout</li>
+      </ul> 
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <section class="welcome-section">
+        <h1>Welcome to Your Dashboard, <span id="student-name">Loading...</span></h1>
+      </section>
+      <div id="content-area"></div>
+    </main>
+
+  </div>
+
+  <script src="js/student-dashboard.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment</title>
+</head>
+<link rel="stylesheet" href="css/instructor-assignments.css">
+<body>
+    <section class="assignments-section">
+  <h2>Create New Assignment</h2>
+  <form id="assignment-form">
+    <div>
+      <label for="course">Course Name:</label>
+      <input type="text" id="course" required />
+    </div>
+    <div>
+      <label for="title">Assignment Title:</label>
+      <input type="text" id="title" required />
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" rows="4" required></textarea>
+    </div>
+    <div>
+      <label for="due-date">Due Date:</label>
+      <input type="date" id="due-date" required />
+    </div>
+    <button type="submit">Create Assignment</button>
+  </form>
+
+  <h3>Your Assignments</h3>
+  <ul id="assignments-list"></ul>
+</section>
+<script src="js/instructor-assignments.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <form id="loginForm" >
+      <input type="email" id="login-email" placeholder="Email" required />
+      <input type="password" id="login-password" placeholder="Password" required />
+
+      <select id="login-role" required>
+        <option value="">Select Role</option>
+        <option value="student">Student</option>
+        <option value="instructor">Instructor</option>
+      </select>
+
+      <a href="forgot-password.html">Forgot password?</a>
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </form>
+  </div>
+  <script src="js/login.js"></script>
+
+</body>
+</html>

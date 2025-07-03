@@ -1,0 +1,183 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f1; /* Soft grayish green */
+  color: #2c3e50;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.student-home {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Marquee Wrapper */
+.marquee-wrapper {
+  background-color: #28a745; /* Brand green */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.marquee-wrapper marquee {
+  cursor: pointer;
+}
+
+.marquee-wrapper marquee:focus {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 15px;
+}
+
+.intro h2 {
+  color: #28a745;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #34495e;
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature-card:hover,
+.feature-card:focus {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  outline: none;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #28a745;
+}
+
+.feature-card p {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.feature-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.feature-card button:hover,
+.feature-card button:focus {
+  background-color: #218838;
+  outline: none;
+}
+
+/* Footer */
+.student-home-footer {
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: #28a745;
+  font-weight: 600;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive typography & spacing */
+
+/* Mobile (up to 600px) */
+@media (max-width: 600px) {
+  .intro h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .feature-card {
+    padding: 20px 15px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+  }
+
+  .feature-card button {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+/* Tablets (601px to 991px) */
+@media (min-width: 601px) and (max-width: 991px) {
+  .intro h2 {
+    font-size: 1.9rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Desktops (992px and up) */
+@media (min-width: 992px) {
+  .intro h2 {
+    font-size: 2.2rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.5rem;
+  }
+}

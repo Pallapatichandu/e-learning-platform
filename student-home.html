@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/student-home.css">
+</head>
+<body>
+<section class="student-home">
+  <!-- Scrolling Announcement Banner -->
+  <!-- Marquee Container -->
+<div class="marquee-wrapper" role="region" aria-label="Important announcements" aria-live="polite" aria-atomic="true">
+  <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop()" onmouseout="this.start()" tabindex="0">
+    🎉 Welcome to LearnRise – Your Innovation Hub for Online Learning! Start your learning journey today! 🚀
+  </marquee>
+</div>
+
+
+  <div class="intro">
+    <h2 id="welcome-msg">Welcome...</h2>
+    <p>
+      Welcome to <strong>LearnRise</strong> — where innovation meets education. Unlock new skills, engage in hands-on learning, and grow your knowledge at your pace.
+    </p>
+  </div>
+
+  <div class="features-grid">
+    <article class="feature-card" tabindex="0" role="region" aria-label="Available Courses">
+      <h3>📘 Available Courses</h3>
+      <p>Browse top-rated courses curated by industry experts.</p>
+      <button onclick="loadPage('available-courses.html')">Explore Courses</button>
+    </article>
+    <article class="feature-card" tabindex="0" role="region" aria-label="Class Videos">
+      <h3>🎬 Class Videos</h3>
+      <p>Rewatch lessons and master concepts on your schedule.</p>
+      <button onclick="loadPage('student-class-videos.html')">View Videos</button>
+    </article>
+    <article class="feature-card" tabindex="0" role="region" aria-label="Assignments">
+      <h3>📝 Assignments</h3>
+      <p>Complete practical tasks, submit your code, and get feedback.</p>
+      <button onclick="loadPage('student-assignments.html')">Start Assignments</button>
+    </article>
+  </div>
+
+  <footer class="student-home-footer">
+    <p>🚀 LearnRise — Your path to professional growth through real learning.</p>
+  </footer>
+</section>
+
+
+
+<script src="js/student-home.js"></script>
+</body>
+</html>

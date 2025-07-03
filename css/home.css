@@ -1,0 +1,61 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #004080, #0059b3);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-btn {
+    background-color: #ffffff;
+    color: #004080;
+    padding: 10px 20px;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .feature-box {
+    max-width: 300px;
+  }
+  
+  .feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* CTA Section */
+  .cta {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .cta p {
+    margin-bottom: 20px;
+  }
+  

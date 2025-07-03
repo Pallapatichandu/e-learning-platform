@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class Video</title>
+  <link rel="stylesheet" href="css/daily-videos.css" />
+</head>
+<body>
+  <section class="videos-section">
+    <h2>Upload Daily Class Video</h2>
+    <form id="video-form">
+      <div>
+        <label for="course">Course Title:</label>
+        <input type="text" id="course" required />
+      </div>
+      <div>
+        <label for="video-url">Video URL:</label>
+        <input type="url" id="video-url" required />
+      </div>
+      <div>
+        <label for="thumbnail">Course Logo Image URL:</label>
+        <input type="url" id="thumbnail" required />
+      </div>
+      <div>
+        <label for="upload-date">Upload Date:</label>
+        <input type="date" id="upload-date" required />
+      </div>
+      <button type="submit">Upload Video</button>
+    </form>
+
+    <h3>Uploaded Videos</h3>
+    <div id="videos-list" class="video-cards"></div>
+  </section>
+
+  <script src="js/daily-videos.js"></script>
+</body>
+</html>

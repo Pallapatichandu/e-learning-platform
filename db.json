@@ -1,0 +1,91 @@
+{
+  "courses": [
+    {
+      "title": "html",
+      "instructor": "chandu",
+      "description": "oijuhguijokpfjrnovoihghjgvijh",
+      "image": "https://avatars.githubusercontent.com/u/123277338?s=280&v=4",
+      "id": "ce95"
+    },
+    {
+      "title": "java",
+      "instructor": "chandu",
+      "description": "2lwkijfrfiufiojoikpohugydtr",
+      "image": "https://wallpapercave.com/wp/wp7250161.png",
+      "id": "fc1e"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "04f8",
+      "studentId": "u_87ktcfjgh",
+      "courseId": "ce95"
+    },
+    {
+      "id": "d948",
+      "studentId": "u_87ktcfjgh",
+      "courseId": null
+    },
+    {
+      "id": "c91d",
+      "studentId": "u_uu5mmhcmp",
+      "courseId": "ce95"
+    }
+  ],
+  "assignments": [
+    {
+      "course": "html",
+      "title": "jfcfhcgvjkl",
+      "description": "dexcgfbhjkkjhvhjghcfkmnikng",
+      "due-date": "2025-06-04",
+      "id": "b172"
+    },
+    {
+      "id": "46c1",
+      "course": "js",
+      "title": "create dynamic nav bar",
+      "description": "using html,css,js",
+      "due-date": "2025-07-04"
+    }
+  ],
+  "videos": [
+    {
+      "course": "html",
+      "videoUrl": "https://www.youtube.com/embed/4FnQqU8E5zg?si=JmWNxWKa80pqT7e",
+      "thumbnail": "https://avatars.githubusercontent.com/u/123277338?s=280&v=4",
+      "date": "2025-06-03",
+      "id": "4798"
+    },
+    {
+      "id": "b5f3",
+      "course": "java",
+      "videoUrl": "https://www.10000coders.xyz/?data=eyJ0b3BpYyI6IkV4cHJlc3MgSlMiLCJ0b2tlbklkIjoiMUxSYmxXU1JkX0djS2U1M1FwYncxTHE4UExubmI5cVZOcXd0eWJoIiwiZGF0ZSI6IjIwMjUtMDUtMjgiLCJ0aW1lIjoiMTQ6MDAiLCJzdHVkZW50X2JhdGNoIjoiMjhyIiwic3R1ZGVudF9lbWFpbCI6InBhbGxhcGF0aWNoYW5kdTQxQGdtYWlsLmNvbSIsInN0dWRlbnRfbmFtZSI6IlAuQ2hhbmR1IiwiaW5zdGFuY2UiOiJiYXRjaCIsImV4cGlyYXRpb25EYXRlIjoiMjkvNS8yMDI1IiwiZXhwaXJhdGlvblRpbWUiOiIzOjQ1OjE4IiwiY2xhc3NDcmVhdGVkT24iOjE3NDg0MzE2Njk1NTN9",
+      "thumbnail": "https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
+      "date": "2025-06-05"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "e579",
+      "assignmentId": null,
+      "course": "html",
+      "title": "iouyftdr",
+      "studentId": "u_87ktcfjgh",
+      "deployedLink": "https://pallapatichandu.github.io/obj-task/",
+      "githubLink": "https://github.com/Pallapatichandu/obj-task",
+      "submittedAt": "2025-06-02T17:27:36.613Z",
+      "feedback": "improve"
+    },
+    {
+      "id": "25eb",
+      "assignmentId": "b172",
+      "course": "html",
+      "title": "jfcfhcgvjkl",
+      "studentId": "u_87ktcfjgh",
+      "deployedLink": "https://pallapatichandu.github.io/obj-task/",
+      "githubLink": "https://github.com/Pallapatichandu/obj-task.git",
+      "submittedAt": "2025-06-03T10:32:04.717Z",
+      "feedback": "please improve you are code"
+    }
+  ]
+}
