@@ -1,24 +1,20 @@
 {
   "name": "js-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSON Server backend for E-learning platform",
   "main": "js/server.js",
   "scripts": {
-    
     "start": "node js/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pallapatichandu/e-learing-platform.git"
+    "url": "https://github.com/Pallapatichandu/e-learning-platform.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pallapatichandu/e-learing-platform/issues"
-  },
-  "homepage": "https://github.com/Pallapatichandu/e-learing-platform#readme",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   }
 }
+
