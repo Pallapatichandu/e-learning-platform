@@ -2,9 +2,9 @@
   "name": "js-project",
   "version": "1.0.0",
   "description": "JSON Server backend for E-learning platform",
-  "main": "js/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node js/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
