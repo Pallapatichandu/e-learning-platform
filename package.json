@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "json-server db.json"
+    "start": "json-server db.json --static ."
+
   },
   "repository": {
     "type": "git",
