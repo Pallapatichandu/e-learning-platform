@@ -7,7 +7,7 @@ function dailyVideosInit() {
   const thumbnailEl = document.getElementById('thumbnail');
   const dateEl = document.getElementById('upload-date');
   const videosList = document.getElementById('videos-list');
-  const API = 'http://localhost:3000/videos';
+  const API = 'https://e-learning-platform-4.onrender.com/videos';
 
   if (!form) {
     console.error('Video form not found!');

@@ -1,8 +1,8 @@
 
 
 (() => {
-  const coursesAPI     = 'http://localhost:3000/courses';
-  const enrollmentsAPI = 'http://localhost:3000/enrollments';
+  const coursesAPI     = 'https://e-learning-platform-4.onrender.com/courses';
+  const enrollmentsAPI = 'https://e-learning-platform-4.onrender.com/enrollments';
 
   const availableCourses    = document.getElementById('availableCourses');
   const enrolledCoursesList = document.getElementById('enrolledCourses');

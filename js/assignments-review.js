@@ -1,6 +1,6 @@
 
 
-const submissionsEndpoint = 'http://localhost:3000/submissions';
+const submissionsEndpoint = 'https://e-learning-platform-4.onrender.com/submissions';
 
 // Load all assignment submissions
 function loadSubmissions() {

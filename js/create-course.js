@@ -1,4 +1,4 @@
-var API_URL = 'http://localhost:3000/courses';
+var API_URL = 'https://e-learning-platform-4.onrender.com/courses';
 var form = document.getElementById('course-form');
 var list = document.getElementById('courses-list');
 var editingId = null;

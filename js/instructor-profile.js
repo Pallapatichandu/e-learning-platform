@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/instructors';
+const API_URL = 'https://e-learning-platform-4.onrender.com/instructors';
 
 const profilePreview = document.getElementById('profilePreview');
 const profileImage = document.getElementById('profileImage');

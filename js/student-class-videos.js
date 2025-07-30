@@ -12,14 +12,14 @@ function loadClassVideos() {
   }
 
   // Step 1: Get enrollments for this student
-  fetch('http://localhost:3000/enrollments')
+  fetch('https://e-learning-platform-4.onrender.com/enrollments')
     .then(res => res.json())
     .then(enrollments => {
       const studentEnrollments = enrollments.filter(e => e.studentId === studentId);
       const courseIds = studentEnrollments.map(e => e.courseId);
 
       // Step 2: Get course titles for those course IDs
-      fetch('http://localhost:3000/courses')
+      fetch('https://e-learning-platform-4.onrender.com/courses')
         .then(res => res.json())
         .then(courses => {
           const enrolledCourseTitles = courses
@@ -27,7 +27,7 @@ function loadClassVideos() {
             .map(course => course.title.toLowerCase());
 
           // Step 3: Get all videos and filter by enrolled course title
-          fetch('http://localhost:3000/videos')
+          fetch('https://e-learning-platform-4.onrender.com/videos')
             .then(res => res.json())
             .then(videos => {
               const filteredVideos = videos.filter(video =>

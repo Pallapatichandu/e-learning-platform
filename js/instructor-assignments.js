@@ -1,5 +1,5 @@
 (() => {
-  const API_URL = 'http://localhost:3000/assignments';
+  const API_URL = 'https://e-learning-platform-4.onrender.com/assignments';
   const form = document.getElementById('assignment-form');
   const list = document.getElementById('assignments-list');
 

@@ -10,8 +10,8 @@ function initStudentAssignments() {
   }
 
   Promise.all([
-    fetch('http://localhost:3000/assignments').then(res => res.json()),
-    fetch(`http://localhost:3000/submissions?studentId=${studentId}`).then(res => res.json())
+    fetch('https://e-learning-platform-4.onrender.com/assignments').then(res => res.json()),
+    fetch(`https://e-learning-platform-4.onrender.com/submissions?studentId=${studentId}`).then(res => res.json())
   ])
     .then(([assignments, submissions]) => {
       if (assignments.length === 0) {
@@ -85,7 +85,7 @@ function submitAssignment(id, course, title) {
     feedback: ""
   };
 
-  fetch('http://localhost:3000/submissions', {
+  fetch('https://e-learning-platform-4.onrender.com/submissions', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(submission)
