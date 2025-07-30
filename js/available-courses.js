@@ -1,8 +1,8 @@
 
 
 (() => {
-  const coursesAPI     = 'http://localhost:8000/courses';
-  const enrollmentsAPI = 'http://localhost:8000/enrollments';
+  const coursesAPI     = 'http://localhost:3000/courses';
+  const enrollmentsAPI = 'http://localhost:3000/enrollments';
 
   const availableCourses    = document.getElementById('availableCourses');
   const enrolledCoursesList = document.getElementById('enrolledCourses');

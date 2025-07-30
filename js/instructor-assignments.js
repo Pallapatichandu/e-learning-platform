@@ -1,5 +1,5 @@
 (() => {
-  const API_URL = 'http://localhost:8000/assignments';
+  const API_URL = 'http://localhost:3000/assignments';
   const form = document.getElementById('assignment-form');
   const list = document.getElementById('assignments-list');
 

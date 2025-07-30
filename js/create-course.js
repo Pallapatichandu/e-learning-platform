@@ -1,4 +1,4 @@
-var API_URL = 'http://localhost:8000/courses';
+var API_URL = 'http://localhost:3000/courses';
 var form = document.getElementById('course-form');
 var list = document.getElementById('courses-list');
 var editingId = null;

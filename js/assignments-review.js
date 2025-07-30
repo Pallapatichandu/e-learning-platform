@@ -1,6 +1,6 @@
 
 
-const submissionsEndpoint = 'http://localhost:8000/submissions';
+const submissionsEndpoint = 'http://localhost:3000/submissions';
 
 // Load all assignment submissions
 function loadSubmissions() {

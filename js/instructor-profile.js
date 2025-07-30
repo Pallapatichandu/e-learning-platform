@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000/instructors';
+const API_URL = 'http://localhost:3000/instructors';
 
 const profilePreview = document.getElementById('profilePreview');
 const profileImage = document.getElementById('profileImage');

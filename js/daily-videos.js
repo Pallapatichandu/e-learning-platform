@@ -7,7 +7,7 @@ function dailyVideosInit() {
   const thumbnailEl = document.getElementById('thumbnail');
   const dateEl = document.getElementById('upload-date');
   const videosList = document.getElementById('videos-list');
-  const API = 'http://localhost:8000/videos';
+  const API = 'http://localhost:3000/videos';
 
   if (!form) {
     console.error('Video form not found!');
