@@ -1,0 +1,28 @@
+{
+  "name": "js-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+  "start": "json-server db.json"
+}
+
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pallapatichandu/e-learning-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pallapatichandu/e-learning-platform/issues"
+  },
+  "homepage": "https://github.com/Pallapatichandu/e-learning-platform#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
